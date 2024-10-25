@@ -85,7 +85,7 @@ class Classifier:
 # ---------------------------
 # ClassifieurKNN
 # ---------------------------
-# Version adjustée de ClassifierKNN pour 10 labels rangées de 0 -> 9
+# Version adjustée de ClassifierKNN pour 10 labels rangées de 0 -> 2
 # ---------------------------
 class ClassifierKNN(Classifier):
     """ Classe pour représenter un classifieur par K plus proches voisins.

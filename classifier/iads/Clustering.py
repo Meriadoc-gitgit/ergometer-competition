@@ -233,7 +233,7 @@ def plus_proche(Exe,Centres):
     """
 
     ############# A COMPLETER 
-    distances = [clust.dist_euclidienne(Exe, centroide) for centroide in Centres]
+    distances = [dist_euclidienne(Exe, centroide) for centroide in Centres]
     
     return np.argmin(distances)
 
@@ -265,7 +265,7 @@ def nouveaux_centroides(Base,U):
     ############# A COMPLETER 
     l = []
     for k,v in U.items() : 
-        l.append(list(clust.centroide(Base.iloc[U[k]])))
+        l.append(list(centroide(Base.iloc[U[k]])))
     return np.array(l)
 
 def inertie_globale(Base, U):
@@ -329,4 +329,5 @@ def affiche_resultat(Base,Centres,Affect):
     
     for k,v in Affect.items() : 
         b_v = np.array(Base.iloc[Affect[k]])
-        plt.scatter(b_v[:,0],b_v[:,1],color=couleurs[k])
+        plt.scatter(b_v[:,0],b_v[:,1],color=couleurs[k],label=k)
+    plt.legend()

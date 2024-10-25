@@ -38,14 +38,14 @@ def genere_train_test(desc_set, label_set, n_per_class):
     test_data_by_class = [[] for _ in range(nb_labels)]
     
     # Séparation des données par classe
-    for i in range(1,nb_labels+1):
+    for i in range(nb_labels):
         class_indices = np.where(label_set == i)[0]
         selected_indices = random.sample(class_indices.tolist(), n_per_class)
         for idx in class_indices:
             if idx in selected_indices:
-                train_data_by_class[i-1].append(desc_set[idx])
+                train_data_by_class[i].append(desc_set[idx])
             else:
-                test_data_by_class[i-1].append(desc_set[idx])
+                test_data_by_class[i].append(desc_set[idx])
     
     # Création des tableaux de données et de labels pour la base d'apprentissage
     train_data = np.concatenate([np.array(train_data_by_class[i]) for i in range(nb_labels)], axis=0)
