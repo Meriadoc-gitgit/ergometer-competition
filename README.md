@@ -76,18 +76,18 @@ Chaque fichier `.zip` correspond à une série.
 
 ## IV - Structure du répertoire 
 ### Les packages
-1. [AvironDashboard](AvironDashboard) : Répertoire github personnel créé par Johan, contenant ses travaux de tous les questions et sa partie avancée.
-2. [classifier](classifier) : Étude de la classification supervisée et non-supervisée, écrite par Duong.
-    1. [iads](classifier/iads) : Packages de codes sources des classifiers
-    2. [supervised.ipynb](classifier/supervised.ipynb) : Notebook d'études des classifiers supervisés
-    3. [unsupervised.ipynb](classifier/unsupervised.ipynb)` : Notebook d'études des classifiers non-supervisés
-3. [src](src) : Ressources supplémentaires du projet.
-    1. [Q1_Q2_Chen_Hummel.html](src/Q1_Q2_Chen_Hummel.html) : Réponses des questions 1 et 2 de Céline et Inès
-4. [Test](Test) : Ensemble des bases de données
+1. [AvironDashboard](https://github.com/JohanGhre/AvironDashboard) : Répertoire github personnel créé par Johan, contenant ses travaux de tous les questions et sa partie avancée.
+2. [classifier](https://github.com/Meriadoc-gitgit/ergometer-competition/tree/main/classifier) : Étude de la classification supervisée et non-supervisée, écrite par Duong.
+    1. [iads](https://github.com/Meriadoc-gitgit/ergometer-competition/tree/main/classifier/iads) : Packages de codes sources des classifiers
+    2. [supervised.ipynb](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/classifier/supervised.ipynb) : Notebook d'études des classifiers supervisés
+    3. [unsupervised.ipynb](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/classifier/unsupervised.ipynb)` : Notebook d'études des classifiers non-supervisés
+3. [src](https://github.com/Meriadoc-gitgit/ergometer-competition/tree/main/src) : Ressources supplémentaires du projet.
+    1. [Q1_Q2_Chen_Hummel.html](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/src/Q1_Q2_Chen_Hummel.html) : Réponses des questions 1 et 2 de Céline et Inès
+4. [Test](https://github.com/Meriadoc-gitgit/ergometer-competition/tree/main/Test) : Ensemble des bases de données
 ### Autres fichiers
-1. [main.ipynb](main.ipynb) : Notebook principal du projet
-2. [rapport_Vu_Ghre_Chen_Hummel.html](rapport_Vu_Ghre_Chen_Hummel.html) : Rapport du projet
-3. [readme.md](readme.md) : Fichier de welcome
+1. [main.ipynb](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/main.ipynb) : Notebook principal du projet
+2. [rapport_Vu_Ghre_Chen_Hummel.html](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/rapport_Vu_Ghre_Chen_Hummel.html) : Rapport du projet
+3. [readme.md](https://github.com/Meriadoc-gitgit/ergometer-competition/blob/main/README.md) : Fichier de welcome
 
 
 ## V Description de base de données
