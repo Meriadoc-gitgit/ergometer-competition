@@ -7496,15 +7496,21 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1><center>Ergometer Competition | SDA 2024</center></h1>
+<a href="https://avirondashboard.streamlit.app" style="text-decoration: none;" target="_blank">
+<div style="border: 1.5px solid #ffcc00; background-color: #fff3cd; padding: 30px; border-radius: 10px; color: #856404; font-family: Arial, sans-serif; text-align: center; max-width: 800px; margin: auto;">
+<img alt="Jo's Advanced Project" src="src/jo-site.png" style="width: 100%; max-width: 600px; height: auto; border-radius: 5px; margin-bottom: 20px;"/>
+<h2 style="margin: 0; font-size: 2.4em;">⭐ Star du projet : AvironDashboard</h2>
+<p style="font-size: 1.3em; margin-top: 15px;">
+      Ce tableau de bord interactif, développé par Johan, propose des analyses avancées des performances de rameurs à l'aide d'un jeu de données sur mesure. Découvrez le projet en direct.
+    </p>
+</div>
+</a>
 <h2 id="I---Team-Information">I - Team Information<a class="anchor-link" href="#I---Team-Information">¶</a></h2><ol>
 <li>Hoang Thuy Duong VU | 12413578</li>
-<li>Johan Ghre</li>
+<li>Johan GHRE</li>
 <li>Inès HUMMEL</li>
 <li>Céline CHEN</li>
 </ol>
-<blockquote>
-<p><strong>ALERTE</strong> : Star du projet, jeu de données réalisé par Johan: AvironDashboard. Streamlit, 2024, <a href="https://avirondashboard.streamlit.app">https://avirondashboard.streamlit.app</a>.</p>
-</blockquote>
 <h2 id="II---Pr%C3%A9sentation-du-projet">II - Présentation du projet<a class="anchor-link" href="#II---Pr%C3%A9sentation-du-projet">¶</a></h2><p>Le fichier <code>.zip</code> joint contient les données recueillies au cours d’une compétition d’ergomètre <em>(machine à ramer)</em> → L’ensemble de fichiers sous forme <code>.json</code>.</p>
 <p>La compétition se déroule comme suit: chaque série comporte 4 rameurs qui vont parcourir 2000m virtuels sur leurs machines.</p>
 <blockquote>
@@ -7584,7 +7590,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Import pandas</span>
@@ -7621,7 +7627,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>List of database : ['Série 1(0001).json', 'Série 4.json', 'ergometer_500m_cumule.json', 'Série 5.json', 'Série 2.json', 'Série 3.json', 'ergometer_500m_norm.json', 'ergometer_500m.json', 'Progressif.json', 'Série 6.json', 'Série 7.json', 'ergometer_2000m.json']
+<pre>List of database : ['Série 1(0001).json', 'Série 4.json', 'Série 5.json', 'Série 2.json', 'Série 3.json', 'Progressif.json', 'Série 6.json', 'Série 7.json']
 </pre>
 </div>
 </div>
@@ -7643,7 +7649,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Identify duplicate columns having different names</span>
@@ -7709,7 +7715,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create 2000m ergometer database</span>
@@ -7861,7 +7867,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Number of data :"</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">ergo_2000m</span><span class="p">))</span>
@@ -7888,7 +7894,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Visualisation des données</span>
@@ -7903,7 +7909,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8013,7 +8019,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Informations générales des données</span>
@@ -8068,11 +8074,11 @@ memory usage: 2.6+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Get columns</span>
-<span class="n">col</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"Test/"</span> <span class="o">+</span> <span class="n">db_lst</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"participants"</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])[</span><span class="s1">'splits'</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">+</span> <span class="p">[</span><span class="s1">'participant'</span><span class="p">,</span> <span class="s1">'serial_number'</span><span class="p">,</span><span class="s1">'calories'</span><span class="p">,</span><span class="s1">'place'</span><span class="p">]</span>
+<span class="n">col</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"Test/"</span> <span class="o">+</span> <span class="n">db_lst</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"participants"</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])[</span><span class="s1">'splits'</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">+</span> <span class="p">[</span><span class="s1">'participant'</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Columns name :"</span><span class="p">,</span><span class="n">col</span><span class="p">)</span>
 
 
@@ -8095,7 +8101,7 @@ memory usage: 2.6+ KB
 
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">di</span><span class="p">))</span> <span class="p">:</span> 
             <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">col</span><span class="p">))</span> <span class="p">:</span> 
-                <span class="k">if</span> <span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'participant'</span><span class="p">,</span> <span class="s1">'serial_number'</span><span class="p">,</span><span class="s1">'calories'</span><span class="p">,</span><span class="s1">'place'</span><span class="p">]</span> <span class="p">:</span> 
+                <span class="k">if</span> <span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'participant'</span><span class="p">]</span> <span class="p">:</span> 
                     <span class="n">dict_main</span><span class="p">[</span><span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]][</span><span class="mi">0</span><span class="p">])</span>
                 <span class="k">else</span> <span class="p">:</span> 
                     <span class="n">dict_main</span><span class="p">[</span><span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">di</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">col</span><span class="p">[</span><span class="n">c</span><span class="p">]])</span>
@@ -8135,7 +8141,7 @@ memory usage: 2.6+ KB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Columns name : ['split_avg_pace', 'split_calories', 'split_distance', 'split_drag_factor', 'split_running_calories', 'split_running_distance', 'split_running_time', 'split_stroke_count', 'split_stroke_rate', 'split_time', 'split_type', 'participant', 'serial_number', 'calories', 'place']
+<pre>Columns name : ['split_avg_pace', 'split_calories', 'split_distance', 'split_drag_factor', 'split_running_calories', 'split_running_distance', 'split_running_time', 'split_stroke_count', 'split_stroke_rate', 'split_time', 'split_type', 'participant']
 </pre>
 </div>
 </div>
@@ -8236,24 +8242,6 @@ memory usage: 2.6+ KB
 <td>Le nom ou l'identifiant du rameur participant à la compétition, stocké sous forme de chaîne de caractères</td>
 <td>texte</td>
 </tr>
-<tr>
-<td>12</td>
-<td>serial_number</td>
-<td>Le numéro de série de la machine d'ergomètre utilisée par le participant. Ce numéro permet de tracer chaque machine</td>
-<td>nombre</td>
-</tr>
-<tr>
-<td>13</td>
-<td>calories</td>
-<td>Le nombre total de calories brûlées par le participant pendant la course, calculé en fonction de l'effort fourni et de la durée de la course</td>
-<td>calories</td>
-</tr>
-<tr>
-<td>14</td>
-<td>place</td>
-<td>Le classement final ou la position du rameur à la fin de la course</td>
-<td>numéro</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -8264,7 +8252,7 @@ memory usage: 2.6+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Number of data :"</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">ergo_500m</span><span class="p">))</span>
@@ -8291,7 +8279,7 @@ memory usage: 2.6+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Visualisation des données</span>
@@ -8306,7 +8294,7 @@ memory usage: 2.6+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8338,9 +8326,6 @@ memory usage: 2.6+ KB
 <th>split_time</th>
 <th>split_type</th>
 <th>participant</th>
-<th>serial_number</th>
-<th>calories</th>
-<th>place</th>
 </tr>
 </thead>
 <tbody>
@@ -8358,9 +8343,6 @@ memory usage: 2.6+ KB
 <td>119.4</td>
 <td>distance_split</td>
 <td>Eric</td>
-<td>430839301</td>
-<td>131</td>
-<td>1</td>
 </tr>
 <tr>
 <th>1</th>
@@ -8376,9 +8358,6 @@ memory usage: 2.6+ KB
 <td>121.2</td>
 <td>distance_split</td>
 <td>Eric</td>
-<td>430839301</td>
-<td>131</td>
-<td>1</td>
 </tr>
 <tr>
 <th>2</th>
@@ -8394,9 +8373,6 @@ memory usage: 2.6+ KB
 <td>121.2</td>
 <td>distance_split</td>
 <td>Eric</td>
-<td>430839301</td>
-<td>131</td>
-<td>1</td>
 </tr>
 <tr>
 <th>3</th>
@@ -8412,9 +8388,6 @@ memory usage: 2.6+ KB
 <td>115.5</td>
 <td>distance_split</td>
 <td>Eric</td>
-<td>430839301</td>
-<td>131</td>
-<td>1</td>
 </tr>
 <tr>
 <th>4</th>
@@ -8430,9 +8403,6 @@ memory usage: 2.6+ KB
 <td>114.8</td>
 <td>distance_split</td>
 <td>Edouard</td>
-<td>530398582</td>
-<td>130</td>
-<td>2</td>
 </tr>
 </tbody>
 </table>
@@ -8446,7 +8416,7 @@ memory usage: 2.6+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Informations générales des données</span>
@@ -8465,26 +8435,23 @@ memory usage: 2.6+ KB
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
 RangeIndex: 128 entries, 0 to 127
-Data columns (total 15 columns):
- #   Column                  Non-Null Count  Dtype 
----  ------                  --------------  ----- 
- 0   split_avg_pace          128 non-null    object
- 1   split_calories          128 non-null    int64 
- 2   split_distance          128 non-null    int64 
- 3   split_drag_factor       128 non-null    int64 
- 4   split_running_calories  128 non-null    int64 
- 5   split_running_distance  128 non-null    int64 
- 6   split_running_time      128 non-null    int64 
- 7   split_stroke_count      128 non-null    int64 
- 8   split_stroke_rate       128 non-null    int64 
- 9   split_time              128 non-null    int64 
- 10  split_type              128 non-null    object
- 11  participant             128 non-null    object
- 12  serial_number           128 non-null    int64 
- 13  calories                128 non-null    int64 
- 14  place                   128 non-null    int64 
-dtypes: int64(12), object(3)
-memory usage: 15.1+ KB
+Data columns (total 12 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   split_avg_pace          128 non-null    object 
+ 1   split_calories          128 non-null    int64  
+ 2   split_distance          128 non-null    int64  
+ 3   split_drag_factor       128 non-null    int64  
+ 4   split_running_calories  128 non-null    int64  
+ 5   split_running_distance  128 non-null    int64  
+ 6   split_running_time      128 non-null    float64
+ 7   split_stroke_count      128 non-null    int64  
+ 8   split_stroke_rate       128 non-null    int64  
+ 9   split_time              128 non-null    float64
+ 10  split_type              128 non-null    object 
+ 11  participant             128 non-null    object 
+dtypes: float64(2), int64(7), object(3)
+memory usage: 12.1+ KB
 </pre>
 </div>
 </div>
@@ -8517,7 +8484,7 @@ memory usage: 15.1+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
@@ -8538,7 +8505,7 @@ memory usage: 15.1+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <!DOCTYPE html>
 
@@ -16906,6 +16873,959 @@ Note: you may need to restart the kernel to use updated packages.
 </main>
 </body>
 </html>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="R%C3%A9ponse-suppl%C3%A9mentaire">Réponse supplémentaire<a class="anchor-link" href="#R%C3%A9ponse-suppl%C3%A9mentaire">¶</a></h3><p>@Writer : Duong + Johan</p>
+<h4 id="Question-1">Question 1<a class="anchor-link" href="#Question-1">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [141]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">ergo_2000m</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"Test/ergometer_2000m.json"</span><span class="p">)</span>
+<span class="n">ergo_500m</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s2">"Test/ergometer_500m.json"</span><span class="p">)</span>
+
+<span class="n">col_2000m</span> <span class="o">=</span> <span class="n">ergo_2000m</span><span class="o">.</span><span class="n">columns</span>
+<span class="n">col_500m</span> <span class="o">=</span> <span class="n">ergo_500m</span><span class="o">.</span><span class="n">columns</span>
+
+<span class="c1"># Create dict of columns to replace columns name for merge</span>
+<span class="n">col_di</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">col_2000m</span> <span class="p">:</span> 
+    <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">col_di</span> <span class="ow">and</span> <span class="n">c</span><span class="o">!=</span><span class="s1">'participant'</span><span class="p">:</span> 
+        <span class="n">col_di</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">=</span> <span class="n">c</span> <span class="o">+</span> <span class="s2">"(2000m)"</span>
+
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">col_500m</span> <span class="p">:</span> 
+    <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">col_di</span> <span class="ow">and</span> <span class="n">c</span><span class="o">!=</span><span class="s1">'participant'</span><span class="p">:</span> 
+        <span class="n">col_di</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"split_"</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"(500m)"</span>
+
+<span class="n">col_di</span><span class="p">[</span><span class="s1">'participant'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'participant'</span>
+
+<span class="c1"># Merge and rename columns</span>
+<span class="n">merged_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">ergo_2000m</span><span class="p">,</span> <span class="n">ergo_500m</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">'participant'</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">'outer'</span><span class="p">)</span>  
+<span class="n">merged_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">col_di</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Columns name:"</span><span class="p">,</span><span class="n">merged_df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+
+<span class="c1"># Convert string of time to int of seconds</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">merged_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="c1"># Calculer le temps total en secondes</span>
+    <span class="n">time_parts</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">'time(2000m)'</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">':'</span><span class="p">)</span>  
+    <span class="n">tik_tak</span> <span class="o">=</span> <span class="n">time_parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">'.'</span><span class="p">)</span>  
+
+    <span class="n">total_time_seconds</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time_parts</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">tik_tak</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="nb">int</span><span class="p">(</span><span class="n">tik_tak</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># Format MM:SS.TT</span>
+    <span class="n">tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">total_time_seconds</span><span class="p">)</span>
+
+<span class="c1"># Add columns to db</span>
+<span class="n">merged_df</span><span class="p">[</span><span class="s1">'time(2000m)'</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmp</span>
+<span class="n">total_strokes</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'spm(2000m)'</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+
+<span class="c1"># Create answer for the question</span>
+<span class="n">main</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[[</span><span class="s1">'participant'</span><span class="p">,</span><span class="s1">'time(2000m)'</span><span class="p">,</span><span class="s1">'spm(2000m)'</span><span class="p">,</span><span class="s1">'time(500m)'</span><span class="p">,</span><span class="s1">'stroke_rate(500m)'</span><span class="p">,</span><span class="s1">'stroke_count(500m)'</span><span class="p">]]</span>
+<span class="n">main</span><span class="p">[</span><span class="s1">'total_strokes(2000m)'</span><span class="p">]</span> <span class="o">=</span> <span class="n">total_strokes</span>
+
+<span class="c1"># Save to json</span>
+<span class="n">main</span><span class="o">.</span><span class="n">to_json</span><span class="p">(</span><span class="s2">"Test/Q1.json"</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">main</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Columns name: Index(['avg_pace(2000m)', 'calories(2000m)', 'distance(2000m)', 'lane(2000m)',
+       'logged_time(2000m)', 'participant', 'place(2000m)',
+       'serial_number(2000m)', 'spm(2000m)', 'time(2000m)', 'avg_pace(500m)',
+       'calories(500m)', 'distance(500m)', 'drag_factor(500m)',
+       'running_calories(500m)', 'running_distance(500m)',
+       'running_time(500m)', 'stroke_count(500m)', 'stroke_rate(500m)',
+       'time(500m)', 'type(500m)'],
+      dtype='object')
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[141]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>participant</th>
+<th>time(2000m)</th>
+<th>spm(2000m)</th>
+<th>time(500m)</th>
+<th>stroke_rate(500m)</th>
+<th>stroke_count(500m)</th>
+<th>total_strokes(2000m)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Alice</td>
+<td>478.1</td>
+<td>28</td>
+<td>119.4</td>
+<td>30</td>
+<td>60</td>
+<td>223.113333</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Alice</td>
+<td>478.1</td>
+<td>28</td>
+<td>120.6</td>
+<td>28</td>
+<td>57</td>
+<td>223.113333</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Alice</td>
+<td>478.1</td>
+<td>28</td>
+<td>120.3</td>
+<td>27</td>
+<td>55</td>
+<td>223.113333</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Alice</td>
+<td>478.1</td>
+<td>28</td>
+<td>117.8</td>
+<td>29</td>
+<td>57</td>
+<td>223.113333</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Amaury</td>
+<td>647.1</td>
+<td>34</td>
+<td>161.7</td>
+<td>34</td>
+<td>92</td>
+<td>366.690000</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>123</th>
+<td>Usama</td>
+<td>474.8</td>
+<td>27</td>
+<td>116.7</td>
+<td>29</td>
+<td>56</td>
+<td>213.660000</td>
+</tr>
+<tr>
+<th>124</th>
+<td>Valérie</td>
+<td>596.3</td>
+<td>28</td>
+<td>144.0</td>
+<td>29</td>
+<td>69</td>
+<td>278.273333</td>
+</tr>
+<tr>
+<th>125</th>
+<td>Valérie</td>
+<td>596.3</td>
+<td>28</td>
+<td>150.8</td>
+<td>27</td>
+<td>67</td>
+<td>278.273333</td>
+</tr>
+<tr>
+<th>126</th>
+<td>Valérie</td>
+<td>596.3</td>
+<td>28</td>
+<td>151.6</td>
+<td>27</td>
+<td>69</td>
+<td>278.273333</td>
+</tr>
+<tr>
+<th>127</th>
+<td>Valérie</td>
+<td>596.3</td>
+<td>28</td>
+<td>149.9</td>
+<td>30</td>
+<td>74</td>
+<td>278.273333</td>
+</tr>
+</tbody>
+</table>
+<p>128 rows × 7 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>Nom de colonnes</th>
+<th>Signification</th>
+<th>Mesuré en</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>participant</td>
+<td>Le nom ou l'identifiant du rameur participant à la compétition, stocké sous forme de chaîne de caractères</td>
+<td>texte</td>
+</tr>
+<tr>
+<td>2</td>
+<td>time(2000m)</td>
+<td>sa performance, à savoir son temps sur 2000m</td>
+<td>secondes</td>
+</tr>
+<tr>
+<td>3</td>
+<td>spm(2000m)</td>
+<td>la cadence moyenne sur 2000m</td>
+<td>SPM</td>
+</tr>
+<tr>
+<td>4</td>
+<td>total_strokes(2000m)</td>
+<td>le nombre de coups de rames sur 2000m</td>
+<td>coups</td>
+</tr>
+<tr>
+<td>5</td>
+<td>time(500m)</td>
+<td>le temps sur chaque portion de 500m</td>
+<td>secondes</td>
+</tr>
+<tr>
+<td>6</td>
+<td>stroke_rate(500m)</td>
+<td>la cadence moyenne sur chaque portion de 500m</td>
+<td>SPM</td>
+</tr>
+<tr>
+<td>7</td>
+<td>stroke_count(500m)</td>
+<td>le nombre de coups de rame sur chaque portion de 500m</td>
+<td>coups</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Question-2">Question 2<a class="anchor-link" href="#Question-2">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pour calculer la vitesse moyenne en km/h, la formule est la suivant :</p>
+<p>$$
+\overline{\text{speed}}=\frac{\text{distance (m)}}{1000} \times \frac{1}{\text{temps (s)}} * 3600
+$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ol>
+<li>La vitesse moyenne en km/h sur 2000m</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [129]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">avg_speed_2000m</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">((</span><span class="n">merged_df</span><span class="p">[</span><span class="s1">'distance(2000m)'</span><span class="p">]</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">/</span> <span class="n">main</span><span class="p">[</span><span class="s1">'time(2000m)'</span><span class="p">])</span> <span class="o">*</span> <span class="mi">3600</span>
+
+<span class="n">tmp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'participant'</span> <span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">merged_df</span><span class="p">[</span><span class="s1">'participant'</span><span class="p">]),</span>
+    <span class="s1">'avg_speed_2000m'</span> <span class="p">:</span> <span class="n">avg_speed_2000m</span>
+<span class="p">})</span>
+
+<span class="n">tmp</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[129]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>participant</th>
+<th>avg_speed_2000m</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Alice</td>
+<td>11.126565</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Amaury</td>
+<td>12.008005</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Anaë</td>
+<td>12.074459</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Baptiste</td>
+<td>12.267848</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Charlotte</td>
+<td>12.328767</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Corentin</td>
+<td>12.919433</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Célestin</td>
+<td>12.951970</td>
+</tr>
+<tr>
+<th>7</th>
+<td>Dominique</td>
+<td>13.340745</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Edouard</td>
+<td>13.415316</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Eloïse</td>
+<td>13.587469</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Emilien</td>
+<td>13.592600</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Eric</td>
+<td>13.613159</td>
+</tr>
+<tr>
+<th>12</th>
+<td>Hervé</td>
+<td>13.664832</td>
+</tr>
+<tr>
+<th>13</th>
+<td>Ivan</td>
+<td>13.795746</td>
+</tr>
+<tr>
+<th>14</th>
+<td>Jacqueline</td>
+<td>13.859480</td>
+</tr>
+<tr>
+<th>15</th>
+<td>Jerome</td>
+<td>14.078999</td>
+</tr>
+<tr>
+<th>16</th>
+<td>Julie</td>
+<td>14.139827</td>
+</tr>
+<tr>
+<th>17</th>
+<td>Julien</td>
+<td>14.282880</td>
+</tr>
+<tr>
+<th>18</th>
+<td>Lison</td>
+<td>14.345487</td>
+</tr>
+<tr>
+<th>19</th>
+<td>Loïs</td>
+<td>14.368390</td>
+</tr>
+<tr>
+<th>20</th>
+<td>Léa</td>
+<td>14.622258</td>
+</tr>
+<tr>
+<th>21</th>
+<td>Léonore</td>
+<td>14.820914</td>
+</tr>
+<tr>
+<th>22</th>
+<td>Maxime</td>
+<td>14.885259</td>
+</tr>
+<tr>
+<th>23</th>
+<td>Merle</td>
+<td>15.059611</td>
+</tr>
+<tr>
+<th>24</th>
+<td>Nancy</td>
+<td>15.084852</td>
+</tr>
+<tr>
+<th>25</th>
+<td>Neve</td>
+<td>15.164280</td>
+</tr>
+<tr>
+<th>26</th>
+<td>Noé</td>
+<td>15.417559</td>
+</tr>
+<tr>
+<th>27</th>
+<td>Orlane</td>
+<td>16.517550</td>
+</tr>
+<tr>
+<th>28</th>
+<td>Thomas</td>
+<td>17.061611</td>
+</tr>
+<tr>
+<th>29</th>
+<td>Tom</td>
+<td>17.069701</td>
+</tr>
+<tr>
+<th>30</th>
+<td>Usama</td>
+<td>17.163290</td>
+</tr>
+<tr>
+<th>31</th>
+<td>Valérie</td>
+<td>18.301983</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ol start="2">
+<li>La vitesse moyenne en km/h sur chaque portion de 500m</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [130]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">avg_speed_500m</span> <span class="o">=</span> <span class="p">(</span><span class="n">merged_df</span><span class="p">[</span><span class="s1">'distance(500m)'</span><span class="p">]</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">/</span> <span class="n">main</span><span class="p">[</span><span class="s1">'time(500m)'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">3600</span>
+
+<span class="n">tmp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'participant'</span> <span class="p">:</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'participant'</span><span class="p">],</span>
+    <span class="s1">'avg_speed_500m'</span> <span class="p">:</span> <span class="n">avg_speed_500m</span>
+<span class="p">})</span>
+
+<span class="n">tmp</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[130]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>participant</th>
+<th>avg_speed_500m</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Alice</td>
+<td>15.075377</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Alice</td>
+<td>14.925373</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Alice</td>
+<td>14.962594</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Alice</td>
+<td>15.280136</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Amaury</td>
+<td>11.131725</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>123</th>
+<td>Usama</td>
+<td>15.424165</td>
+</tr>
+<tr>
+<th>124</th>
+<td>Valérie</td>
+<td>12.500000</td>
+</tr>
+<tr>
+<th>125</th>
+<td>Valérie</td>
+<td>11.936340</td>
+</tr>
+<tr>
+<th>126</th>
+<td>Valérie</td>
+<td>11.873351</td>
+</tr>
+<tr>
+<th>127</th>
+<td>Valérie</td>
+<td>12.008005</td>
+</tr>
+</tbody>
+</table>
+<p>128 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pour calculer la longueur moyenne par coup de rame, la formule est la suivant :</p>
+<p>$$
+\overline{\text{length}}=\text{spm} \times \frac{\text{temps (s)}}{60}
+$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ol start="3">
+<li>La longueur moyenne parcourue par coup de rame sur 2000m</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [139]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">total_strokes</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'spm(2000m)'</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">merged_df</span><span class="p">[</span><span class="s1">'time(2000m)'</span><span class="p">])</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+<span class="n">avg_length_per_stroke</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'distance(2000m)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">total_strokes</span>
+
+<span class="n">tmp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'participant'</span> <span class="p">:</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'participant'</span><span class="p">],</span>
+    <span class="s1">'avg_length_per_stroke(2000m)'</span> <span class="p">:</span> <span class="n">avg_length_per_stroke</span>
+<span class="p">})</span>
+
+<span class="n">tmp</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[139]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>participant</th>
+<th>avg_length_per_stroke(2000m)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Alice</td>
+<td>8.964054</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Alice</td>
+<td>8.964054</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Alice</td>
+<td>8.964054</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Alice</td>
+<td>8.964054</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Amaury</td>
+<td>5.454198</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>123</th>
+<td>Usama</td>
+<td>9.360666</td>
+</tr>
+<tr>
+<th>124</th>
+<td>Valérie</td>
+<td>7.187178</td>
+</tr>
+<tr>
+<th>125</th>
+<td>Valérie</td>
+<td>7.187178</td>
+</tr>
+<tr>
+<th>126</th>
+<td>Valérie</td>
+<td>7.187178</td>
+</tr>
+<tr>
+<th>127</th>
+<td>Valérie</td>
+<td>7.187178</td>
+</tr>
+</tbody>
+</table>
+<p>128 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ol start="4">
+<li>La longueur moyenne parcourue par coup de rame sur 500m</li>
+</ol>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [140]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">total_strokes</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'stroke_rate(500m)'</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">merged_df</span><span class="p">[</span><span class="s1">'time(500m)'</span><span class="p">])</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+<span class="n">avg_length_per_stroke</span> <span class="o">=</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'distance(500m)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">total_strokes</span>
+
+<span class="n">tmp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'participant'</span> <span class="p">:</span> <span class="n">merged_df</span><span class="p">[</span><span class="s1">'participant'</span><span class="p">],</span>
+    <span class="s1">'avg_length_per_stroke(500m)'</span> <span class="p">:</span> <span class="n">avg_length_per_stroke</span>
+<span class="p">})</span>
+
+<span class="n">tmp</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[140]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>participant</th>
+<th>avg_length_per_stroke(500m)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Alice</td>
+<td>8.375209</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Alice</td>
+<td>8.884151</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Alice</td>
+<td>9.236169</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Alice</td>
+<td>8.781687</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Amaury</td>
+<td>5.456728</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>123</th>
+<td>Usama</td>
+<td>8.864462</td>
+</tr>
+<tr>
+<th>124</th>
+<td>Valérie</td>
+<td>7.183908</td>
+</tr>
+<tr>
+<th>125</th>
+<td>Valérie</td>
+<td>7.368111</td>
+</tr>
+<tr>
+<th>126</th>
+<td>Valérie</td>
+<td>7.329229</td>
+</tr>
+<tr>
+<th>127</th>
+<td>Valérie</td>
+<td>6.671114</td>
+</tr>
+</tbody>
+</table>
+<p>128 rows × 2 columns</p>
+</div>
 </div>
 </div>
 </div>
