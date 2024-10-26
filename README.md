@@ -1,5 +1,4 @@
 # ergometer-competition
-@ haha
  
 ## Présentation du projet
 
